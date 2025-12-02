@@ -1,0 +1,19 @@
+{
+    "crons": [
+      {
+        "path": "/api/cron-reset-review-limit",
+        "schedule": "0 15 * * *"
+      }
+  
+    ],
+    "functions": {
+      "src/app/api/cron-reset-review-limit/route.ts": {
+        "maxDuration": 300
+      },
+      "src/app/api/survey/generate-review/route.ts": {
+        "maxDuration": 300
+      }
+    }
+  }
+
+  

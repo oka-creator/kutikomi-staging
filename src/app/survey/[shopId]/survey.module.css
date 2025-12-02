@@ -1,0 +1,21 @@
+.container {
+    font-size: 16px; /* ベースフォントサイズを16pxに設定 */
+  }
+  
+  .input {
+    font-size: 16px !important; /* 入力フィールドのフォントサイズを16pxに設定 */
+    height: 48px !important; /* 入力フィールドの高さを48pxに設定 */
+  }
+  
+  /* メディアクエリでデスクトップの場合のスタイルを調整 */
+  @media (min-width: 768px) {
+    .input {
+      height: auto !important;
+    }
+  }
+  
+  /* チャットコンテナのスタイル調整 */
+  .chatContainer {
+    /* スクロールバーのスタイルを調整する場合はここに記述 */
+  }
+  
